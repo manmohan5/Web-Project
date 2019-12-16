@@ -1,0 +1,425 @@
+
+@font-face{
+    font-family: 'flood';
+    font-stretch: condensed;
+    src: url('./Flood.ttf');
+    line-height: 1em;
+  }
+
+
+body{
+    font-family: Helvetica, Sans-Serif;
+}
+
+/* Start Navigation Bar */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 5%;
+}
+
+.logo h3 {
+    width: 273px;
+    font-size: 32px;
+    color: #354463;
+}
+.nav-items{
+text-align: center;
+
+}
+.donate{
+text-align: center;
+}
+.nav-items a {
+    text-decoration: none;
+    padding-left: 16px;   
+    color: #354463;
+    font-size: 18px;
+}
+.nav-items a:hover{
+    color:#0088a9;
+}
+
+.donate button a{
+    text-decoration: none;
+    font-size: 22px;
+    color: #354463
+}
+.donate button {
+    padding: 6px 10px;
+    border-radius: 30px;
+    background: #C1F7D5;
+    cursor: pointer;
+}
+.donate button:hover{
+    background-color: #0088a9;
+}
+/* End of Navigation Bar */
+/* .navbar{
+    display: flex;
+} */
+/* .nav-items{
+    flex-direction: column;
+} */
+/* ************************************************************************************************************* */
+/* Banner for Desktop View - START*/
+.the-issue{
+    position: absolute;
+    background-color: #354463;
+    color: white;
+    padding: 8px 16px;
+    top:  -8px;
+}
+.banner-text{
+    position: relative;
+}
+
+.banner-climate-text{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);    
+    width: fit-content;
+    background-image: url('home/annie-spratt-135307-unsplash.png');
+    background-size:cover;
+    background-position:center; 
+    color: #354463;
+    padding: 96px;
+}
+.hash-tag{
+    font-family: 'Flood';
+    line-height: 58px;
+    font-size: 78px;
+    padding-left: 16px;
+    color: white; 
+    display: grid;
+    justify-items: center;   
+}
+.banner .banner-text{        
+    background-color:#FFFFFF;
+    padding: 48px;
+    align-self: center;
+}
+
+/* BANNER for Desktop view - END */
+/* ****************************************************************************************************** */
+
+/* Mission Section start here */
+.mission{
+    padding: 96px;
+    background-color: #354463;
+}
+.what-we-do{
+    width: 117px;
+    padding: 1px 12px;
+    background-color: white;
+    color: #354463;
+    text-align: center;
+    font-size: 14px;
+}
+.mission-heading{
+    text-align: left;
+    font: Bold 38px/56px Helvetica;
+    color: antiquewhite;
+}
+.mission-item{
+    position: relative;
+    background: white;
+}
+.mission-item-text{
+    padding:180px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    color: #354463;
+    text-align: left;
+    line-height: 22px;
+}
+.mission-item-text h2{
+    font-size: 28px;
+    line-height: 36px
+}
+.mission-task{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:48px;
+}
+
+.mis-img{
+    position: relative;
+    left: 32px;
+    top: 180px;
+    width: 320px;
+    height: 224px;
+    z-index: 1;
+}
+.img-row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:48px;
+}
+.read-button{
+    padding: 6px 10px;
+    border-radius: 30px;
+    background: #C1F7D5;
+    cursor: pointer;
+    margin: 20px 48px;
+}
+.read-button a{
+    text-decoration: none;
+    font: Bold 18px/22px Helvetica;
+    color: #354463
+}
+
+/* Mission section end here */
+
+/* ********************************************************************************************************** */
+
+/* Stories section start here */
+.stories{
+    padding: 96px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+  }
+  
+  .stories-image{
+    position: relative;
+    grid-column: 2/3;
+    /* grid-row: 1/2;     */
+  }
+  
+  .stories-content{
+    position: relative;
+    top: 20%;
+    left: 32px;
+    grid-column: 1/2;
+    grid-row: 1/2;   
+    align-self: start;
+  }
+
+  .stories-content-text{
+    padding: 16px;
+    padding-left: 47px;
+    padding-right: 66px;
+    background-color: #354463;
+    color: white;
+  }
+
+  .stories-content-text h2{
+      font-size:28px;
+      text-align: left;
+      padding: 16px;
+  }
+  .stories-content-text p{
+      font-size:14px;
+      padding: 16px;
+  }
+  .stories-read-more{
+    margin-left: 0px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+    padding: 12px 30px;
+    border-radius: 30px;
+    background: #C1F7D5;
+    cursor: pointer;
+  }
+  
+  
+  .stories-image img {   
+    width: 100%;
+  } 
+  
+  .stories-image-tag{
+    z-index: 5;
+    position: absolute;
+    background-color: #354463;
+    color: white;
+    padding: 8px 16px;
+    top: -32px;
+    left: 32px;
+  }
+  
+/* Stories section end here */
+
+/* ****************************************************************************************************************** */
+
+/* Event section start here */
+  
+.events{
+    display: grid;
+    padding: 78px;
+    grid-row-gap: 64px;
+    grid-template-columns: 1fr;
+    background-color: #354463;
+  }
+  .events-heading{
+    font-size: 68px;
+    font-family: 'Flood';
+    padding-left: 16px;
+    line-height: 84px;
+    color: white;
+  }
+
+  .events-content{
+    display: grid;
+   
+    grid-template-columns:  1.4fr 1.2fr;
+    grid-column-gap: 64px;
+         
+    
+  }
+  .event-latest-news {
+    display: grid;
+    grid-template-columns:  1fr 1.2fr;
+    grid-column-gap: 32px;
+  }
+
+  .event-image{
+    width: 100%;
+  }
+
+  .latest-news-content, .event-content-text{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 32px;
+  
+  }
+   .event-head-item{
+     font-size: 56px;
+     color: white;
+   }
+
+   .event-content-item{
+     font-size: 24px;
+     color: white;
+
+   }
+  .button-read-more-event{
+    align-self: start;
+    justify-self: start;
+  }
+
+  .event-tag{
+    width: 80px;
+    text-align: center;
+    padding: 8px 16px;
+    color: black;
+    background: white;
+    /* align-self: start;
+    justify-self: start; */
+  }
+   
+  .event-tag,.button-read-more-event{
+    margin: 0px;
+  }
+/* Event section ends here */
+
+/* ************************************************ Desktop View END ************************************************** */
+
+
+  /* Take action section starts here */
+  /* .take-action .take-action-item{
+    padding: 1em;
+  }
+   
+  .take-action-item h3 {
+    font-size: 1em;
+    padding-bottom: 0.2em;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .take-action-item p{
+    font-size: 1em;
+  }  */
+  
+ /************************************************ Mobile view ********************************************************/
+@media (max-width: 576px){
+      /* Navigation bar */
+  .navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .logo{
+    grid-column: 1/2;
+    grid-row: 1/2; 
+    align-self: center;
+   
+  }
+  .logo h3{
+    font-size: 18px;
+    width:154px; 
+  }
+
+  .nav-items a{
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .nav-items{
+    display: grid;
+    grid-row-gap: 6px;
+    justify-self: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .donate{
+    grid-column: 1/3;
+    grid-row:3;
+    align-self: center; 
+    margin-left: 32px;
+    margin-right: 32px;
+    padding:20px;
+  }
+  .donate button{
+    width: 100%;
+  }
+  /*End Navigation  */
+  /* Banner */
+    .banner{
+        /* width: 376px;
+        height: auto; */
+        display: grid;
+        grid-template-rows: 1fr 1fr;      
+        grid-row-gap: 96px;
+        padding: 64px 32px 64px 32px;
+        background-size: center;
+        background-position: 75% 50%;
+        background-repeat: no-repeat;
+    }
+    .banner-climate-text{
+        width: 322px;
+        height: 108px;
+        font-size: 22px;
+    }
+    .the-issue{
+        left: 40%;
+        font-size: 12px;
+    }
+    .banner-text{
+        width: 271px;
+        height: 160px;
+        text-align: center;        
+        grid-row: 2;
+        left:-10px
+        
+      }
+      .banner-text p{
+          position: relative;
+          left:-10%;
+      }
+      .banner-text a{
+          font-size: 14px;
+          color: #354463;
+      }
+    .hash-tag{
+        font-size: 48px;
+        grid-template-columns:1fr 1fr;
+    }
+    
+      /* End Banner */
+}
