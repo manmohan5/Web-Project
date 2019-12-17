@@ -7,6 +7,7 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="homestyle.css">
+    <link rel="stylesheet" type="text/css" href="homeMobile.css">
 </head>
 
 <body>
@@ -16,11 +17,11 @@
         </div>
         <div class="nav-items">
             <a href="#">About us</a>
-            <a href="#">Our stories</a>
-            <a href="#">News and events</a>
+            <a href="#section-stories">Our stories</a>
+            <a href="#section-events">News and events</a>
         </div>
         <div class="donate">
-            <button><a href="#">Donate Today</a></button>
+            <button><a href="/donate.html">Donate Today</a></button>
         </div>
     </div>
 
@@ -63,9 +64,9 @@
           </p>
         </div>
         <div class="img-row">
-        <img class="mis-img" src="home/tree-planting.png" alt="mission-1" />
-        <img class="mis-img" src="home/education-training.png" alt="mission-1" />
-        <img class="mis-img" src="home/advocacy.png" alt="mission-1" />
+        <img class="mis-img img-1" src="home/tree-planting.png" alt="mission-1" />
+        <img class="mis-img img-2" src="home/education-training.png" alt="mission-1" />
+        <img class="mis-img img-3" src="home/advocacy.png" alt="mission-1" />
         </div>
         <div class="mission-task">
           <div class="mission-item">
@@ -107,7 +108,7 @@
     <!-- Mission Section end here -->
 
     <!-- Stories section starts here -->
-    <section class="stories">
+    <section id="section-stories" class="stories">
         <div class="stories-image">
             <img src="home/lady-baby.png" alt="stories image">
             <p class="stories-image-tag">STORIES</p>
@@ -126,29 +127,29 @@
     <!-- Stories section ends here -->
 
     <!-- Event section starts here -->
-    <section class="events">
+    <section id="section-events" class="events">
             <h1 class="events-heading">LET’S TAKE ACTION NOW<br> TO SAVE THE FUTURE.</h1>
         <div class="events-content">
             <img class="event-image" src="home/tree-planting.png" alt="Event One">
             <div class="event-content-text">
-            <p class="event-tag event-content-tag">EVENT</p>
+            <p class="event-tag">EVENT</p>
                 <h1 class="event-head-item">Earth Day 2018 community tree planting event</h1>
                 <p class="event-content-item">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi felis, auctor vitae vestibulum vel, consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor nisl laoreet semper nec iaculis nibh. Curabitur in tortor lorem.
                 </p>
-                <button class="button-read-more button-read-more-event">Read more</button>
+                <button class="button-read-more button-read-more-event"><b>Read more</b></button>
             </div>
         </div>
         <div class="event-latest-news">
             <div class="latest-news-content">
-                <p class="event-tag event-tag-news">LATEST NEWS</p>
+                <p class="event-tag">LATEST NEWS</p>
                 <h1 class="event-head-item">
                         Updates from the fall quarterly meeting
                 </h1>
                 <p class="event-content-item">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mi felis, auctor vitae vestibulum vel, consequat eu dolor. Nam pellentesque euismod laoreet. Aliquam sed nisl porttitor nisl laoreet semper nec iaculis nibh. Curabitur in tortor lorem.
                 </p>
-                <button class="button-read-more button-read-more-event">Read more</button>
+                <button class="button-read-more"><b>Read more</b></button>
             </div>
             <img class="event-image" src="home/meeting.png" alt="Latest news">
         </div>
