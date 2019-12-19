@@ -1,0 +1,244 @@
+
+/* Mobile View */
+
+@media (max-width: 576px){
+    /* Navigation section */
+     
+    
+    nav{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .logo{
+      padding-left: 2em;
+      grid-column: 1/2;
+      grid-row: 1/2; 
+      align-self: center;
+      font-size: 0.8rem; 
+    }
+  
+    .nav-items{
+      display: grid;
+      grid-row-gap: 1em;
+       justify-self: center;
+      grid-column: 2/3;
+      grid-row: 1/2;
+      text-align: left;
+      padding-left: 0em;
+      font-size: 0.9em; 
+    }
+  
+    .donate{
+      grid-column: 1/3;
+      grid-row:2;
+      align-self: center; 
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+    .donate button{
+      width: 100%;
+    }
+    
+    /* Banner Section */
+  
+    .banner-content{
+      grid-row-gap: 6em;
+      padding: 4em 2em 4em 2em;
+    }
+    .banner-quote{
+      text-align: center;
+    }
+    .banner-the-issue-tag{
+     left: 50%;
+     transform: translateX(-52px);
+    }
+
+    /* Action Section */
+    .action .action-item{
+      padding: 1em;
+    }
+     
+    .action-item h3 {
+      font-size: 1em;
+      padding-bottom: 0.2em;
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    .action-item p{
+      font-size: 1em;
+    }
+  
+  
+    /* Mission Section */
+    .mission{
+      padding: 4em 2em 2em 2em;
+    }
+    .mission-heading .mission-text{
+        font-size:22px;
+        text-align: center;
+    }
+    .mission .what-we-do {
+        position: relative;
+        left: 27%;
+        text-align: center;
+    }
+     .mission-content{
+       padding: 1em;
+       grid-template-columns: 1fr 3fr 1fr;
+     }
+     .mission-content-item{
+      grid-column: 1/4;
+     }
+     .mission-content-text {
+      padding: 1em;
+      padding-top: 9.5em;
+      grid-column: 1/4;
+      text-align: center;
+      }
+       .mission-content-item img{
+        position: relative;
+        left: 0;
+        width: 80%;
+        margin: 0 auto;
+        grid-column: 1/4;
+      } 
+      .miss-img-1{
+       height: 21vh;
+      }
+      
+      .mission-button{
+        grid-column: 1/3;
+        margin-left: 5em;     
+        margin-right: 0em;
+        position: relative;
+        left: 0px;
+        justify-self: center;
+      }  
+  
+      /* Stats section */
+       
+      .stats{
+        padding: 2em ;
+        grid-row-gap: 4em;
+      }
+      .stats-hash-tag{
+        grid-column: 1/3;
+         
+      }
+      .stats-content{
+        grid-column: 1/3;
+        grid-row: 2;
+      }
+
+      /* Stories section */
+     .stories{
+       padding: 3em;
+       grid-row-gap: 2em;
+     }
+      .stories-content{
+        top: 2em;
+        left: 0em;
+        text-align: center;
+        font-size: 1.2em;
+      }
+      .stories-content-read-btn{
+        margin-left: 0em;
+        margin-bottom: 2em;
+      }
+      .stories-content-text{
+        font-size: 0.8em;
+      }
+
+       /* Events Section */
+      .events{
+        padding: 2em;
+      }
+       .events-heading{
+         font-size: 1.6em;
+       }
+      .events-content,.event-latest-news{
+        grid-row-gap: 4em;
+      }
+  
+      .event-content-text,.latest-news-content{
+        grid-column: 1/3;
+        grid-row: 2/3;
+        justify-items: center;
+        text-align: center;
+      }
+      .event-image{
+        grid-column: 1/3;
+        grid-row: 1/2;
+  
+      }
+      
+      .event-tag,.button-read-more-event{
+        margin: 0 auto;
+      }
+      .event-latest-news,.events-content {
+        position: relative;
+      }
+      .event-tag-news,.event-content-tag{
+        position: absolute;
+        top: -1em;
+        left: 50%;
+        transform: translateX(-55px);
+      }
+
+       
+  
+      /* Subscribe Section */
+      .subscribe{
+        padding: 2em;
+        grid-template-columns: 2fr 1fr;
+      }
+      .subscribe-tag{
+        
+        grid-column: 1/3;
+        font-size: 0.9em;
+      }
+      .subscribe-form{
+        grid-column: 1/3;
+        grid-row: 2/3;
+      }
+      .subscribe-form-input{
+       
+        width: 6em;
+      }
+      .subscribe-form-btn{
+        padding: 0.2em 0.4em;
+       
+      }
+  
+       /* Footer Section */
+       footer{
+         padding: 2em;
+       }
+         .footer{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            justify-self: start;
+         }
+         .footer-contact-us{
+          grid-column: 3/6;
+          grid-row: 1/2;
+          justify-self: end
+         }
+         .footer-links{
+          grid-column: 1/3;
+          grid-row: 2/3;
+          justify-self: start;
+         }
+         .footer-follow-us{
+          grid-column: 3/6;
+          grid-row: 2/3;
+          justify-self: center;
+         }
+  
+         .footer-tag{
+          grid-column: 1/6;
+          grid-row: 3/4;
+          justify-self: end;
+         }
+  
+  }
