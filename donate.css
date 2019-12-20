@@ -39,6 +39,10 @@ header{
   padding: 1em;
   color: #354463;
 }
+header a{
+  text-decoration: none;
+  color: #354463;
+}
 
 .donation-form{
   display: grid;
