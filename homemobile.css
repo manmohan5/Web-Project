@@ -20,12 +20,13 @@
     .nav-items{
       display: grid;
       grid-row-gap: 1em;
-       justify-self: center;
+      justify-self: center;
       grid-column: 2/3;
       grid-row: 1/2;
       text-align: left;
       padding-left: 0em;
       font-size: 0.9em; 
+      padding-top: 1em;
     }
   
     .donate{
@@ -34,6 +35,8 @@
       align-self: center; 
       margin-left: 2em;
       margin-right: 2em;
+      padding-top: 0em;4
+      border: 0em;
     }
     .donate button{
       width: 100%;

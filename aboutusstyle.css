@@ -1,0 +1,384 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  html {
+    font-size: 100%;
+  }
+  
+  body {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  @font-face {
+    font-family: "flood";
+    font-stretch: condensed;
+    src: url("./Flood.ttf");
+  }
+  /* *******************************Desktop View****************************************** */
+  /* nav-bar section */
+  
+  .nav-bar {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 128px;
+  }
+  
+  .logo {
+    width: 16%;
+    height: 63px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    text-decoration: none;
+  }
+  
+  
+  .donate {
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+    text-decoration: none;
+    border-radius: 100px;
+    background: #c1f7d5 0% 0% no-repeat padding-box;
+    box-shadow: none;
+    padding-top: 1%;
+  }
+  
+  .nav-menu {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .menu-formatting {
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #354463;
+    opacity: 1;
+    text-decoration: none;
+  }
+  
+  /* issue section */
+  
+  .the-issue {
+    z-index: 1;
+    padding: 1%;
+    position: relative;
+    top: 24%;
+    left: 54%;
+    width: 160px;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    background: #354463 0% 0% no-repeat padding-box;
+    letter-spacing: 0.56px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  
+  .climate {
+    font-family: "Flood";
+    line-height: 70px;
+    font-size: 72px;
+    width: 2vw;
+    height: auto;
+    color: white;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+  }
+  
+  .statement {
+    position: absolute;
+    left: 51%;
+    top: 31%;
+    background: white;
+    width: 25vw;
+    height: auto;
+    padding: 3%;
+    text-align: left;
+    font: Bold 28px/36px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+  }
+  
+  .issue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .issue-section {
+    background-image: url("./about-us/annie-spratt-427339-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+  }
+  /* Management Section */
+.management{
+  background: #354463;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr 3fr;
+}
+.management-symbols{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: 1/2fr;
+  color: #ffffff;
+  padding: 0 10%;
+}
+.management-content{
+  font-size: 2em;
+  color: #ffffff;
+}
+.what-we-do{
+  display: grid;
+  background-color: #ffffff;
+  color: #354463;
+  width: 10%;
+  height: 35%;
+}
+
+/* **********************************Tablet View************************************* */
+@media (max-width: 880px) {
+    /* nav-bar section */
+  
+    .nav-bar {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      height: 128px;
+      justify-content: space-between;
+    }
+  
+    .logo {
+      width: 39%;
+      position: relative;
+      left: 12%;
+      grid-column: 1/3;
+      text-align: left;
+      font-size: 22px;
+      font-weight: bold;
+      height: auto;
+      justify-self: first baseline;
+    }
+  
+    .donate {
+      font-size: 18px;
+      font-weight: bold;
+      grid-column: 3;
+      grid-row: 1/3;
+      width: 140px;
+      height: auto;
+      text-align: center;
+      padding: 5%;
+    }
+  
+    .nav-menu {
+      width: 100%;
+      grid-column: 1 /3;
+      grid-row: 2;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    .menu-formatting {
+      text-align: left;
+      font-size: 14px;
+      font-weight: lighter;
+      color: #354463;
+      opacity: 1;
+      text-decoration: none;
+    }
+  
+    /* issue section */
+  
+  .the-issue {
+    z-index: 1;
+    padding: 1%;
+    position: relative;
+    top: 47%;
+    left: 13%;
+    width: 160px;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    background: #354463 0% 0% no-repeat padding-box;
+    letter-spacing: 0.56px;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .climate {
+    font-family: "Flood";
+    line-height: 40px;
+    font-size: 44px;
+    width: 24vw;
+    height: auto;
+    color: white;
+    position: absolute;
+    left: 7%;
+    top: 7%;
+  }
+
+  .statement {
+    position: absolute;
+    left: 9%;
+    top: 50%;
+    background: white;
+    width: 71vw;
+    height: auto;
+    padding: 5%;
+    text-align: left;
+    font: Bold 28px/36px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+  }
+
+  .issue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .issue-section {
+    background-image: url("./about-us/annie-spratt-427339-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    position: relative;
+  }
+}
+
+
+
+
+/* **********************************Mobile View************************************* */
+@media (max-width: 576px){
+
+  /* Navigation Bar */
+  .nav-bar {
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1%;
+    justify-items: center;
+  }
+
+  .logo {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+    width: 95%;
+  }
+
+  .donate {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    grid-column: 3/1;
+    align-items: center;
+    width: 312px;
+    height: 40px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: flex-start;
+    width: 75%;
+  }
+
+  .menu-formatting {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+
+  /* issue section */
+
+  .the-issue {
+    z-index: 1;
+    padding: 2%;
+    position: relative;
+    top: 47%;
+    left: 25%;
+    width: 160px;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    background: #354463 0% 0% no-repeat padding-box;
+    letter-spacing: 0.56px;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .climate {
+    font-family: "Flood";
+    line-height: 40px;
+    font-size: 44px;
+    width: 40vw;
+    height: auto;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+  }
+
+  .statement {
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    background: white;
+    width: 75vw;
+    height: auto;
+    padding: 4.5%;
+    text-align: center;
+    font: Bold 22px/28px Helvetica;
+    letter-spacing: 0;
+    color: #354463;
+    opacity: 1;
+  }
+
+  .issue {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .issue-section {
+    background-image: url("./about-us/annie-spratt-427339-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+  }
+  
+
+}

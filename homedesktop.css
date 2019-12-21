@@ -15,9 +15,9 @@
     border-radius: 3em;
     font-size: 1.2em;
   }
-
-  
-
+  button{
+    border-style: none;
+  }
 
  /*Navigation section   */
  
@@ -39,12 +39,12 @@
 }
 
  .logo h3 {
-   width: 8em;
+   width: 9em;
    font-size: 2em;
  }
 .nav-items{
   padding: 1em 1em;
-  padding-top: 2.5em;
+  padding-top: 4.5em;
   text-align: center;
   
 }
@@ -52,7 +52,8 @@
 .donate{
   text-align: center;
   padding: 1em 1em;
-  padding-top: 2em;
+  padding-top: 4em;
+  box-shadow: none;
 }
 
 .nav-items a {
@@ -88,7 +89,9 @@
   background-size:cover;
   background-position:center;
   color: #354463;
-   
+  }
+  .banner-section a{
+    color: #354463;
   }
   .banner-content{
     display: grid;
@@ -205,7 +208,7 @@
 }
 
 .miss-img-1{
-    height: 36vh;
+    height: 60vh;
 }
 
 .mission-content-text{
